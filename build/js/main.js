@@ -14,11 +14,13 @@ window.addEventListener("DOMContentLoaded", () => {
     .then((users) => {
       users.forEach((user) => {
         const $li = createNode("li");
+        const $p = createNode("p");
         const $span = createNode("span");
 
-        $li.textContent = user.name;
+        $p.textContent = user.name;
         $span.textContent = user.email;
         
+        append($li, $p);
         append($li, $span);
         append($ul, $li);
       });

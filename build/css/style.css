@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background: #f1f1f1;
+}
+
+section {
+  display: inline-block;
+}
+
+#users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+ul li {
+  list-style: none;
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+ul li p {
+  font-size: 1.5rem;
+}
+
+ul li span {
+  font-size: 1.1rem;
+}
+
