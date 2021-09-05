@@ -1,3 +1,4 @@
 build/sw.js.map
 build/workbox-*
 build/sw.js
+node_modules
